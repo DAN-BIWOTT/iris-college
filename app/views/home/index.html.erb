@@ -53,7 +53,7 @@
                 <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                    <%= image_tag('slides/4.jpg') %>
 
-                    <div class="tp-caption sft sub-title" data-x="480" data-y="232" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">Course, Online Courses Template</div>
+                    <div class="tp-caption sft sub-title" data-x="480" data-y="232" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">Course, Online Courses</div>
 
                     <div class="tp-caption sft title-slide color-white center style3" data-x="218" data-y="300" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">we will help to learn</div>
 
@@ -109,9 +109,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title-section style1">
-                        <h1 class="title">Our Top K.C.P.E students</h1>
+                        <h1 class="title">Popular Categories</h1>
+                        <div class="desc">
+                            <p>Vut sagittis a, magna ridiculus! Scelerisque parturient! Cum duis nunc in, dignissim, porta porta enim, proin<br> turpis egestas! Mauris dapibus sed integer placerat, scelerisque!</p>
+                        </div>
                         <div class="icon">
-                           <%= image_tag('icon/line.png') %>
+                            <%= image_tag('icon/line.png') %>
                         </div>
                     </div><!-- /.title-section -->
                 </div><!-- /.col-md-12 -->
@@ -124,11 +127,12 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat1.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat1.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">Jame Kirwa</h6>
+                            <a href="#"><h6 class="courses-topic">Business and Economics</h6></a>
                             <p>Management, Marketing, Business</p>
                         </div>
                     </div><!-- /.flat-courses -->
@@ -136,11 +140,12 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat2.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat2.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">Maureen Kinywa</h6>
+                            <a href="#"><h6 class="courses-topic">Language</h6></a>
                             <p>English, French, Chinese</p>
                         </div>
                     </div><!-- /.flat-courses -->
@@ -148,11 +153,12 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat3.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">James Lagat</h6>
+                            <a href="#"><h6 class="courses-topic">Arts</h6></a>
                             <p>Design, Film, Photography</p>
                         </div>
                     </div><!-- /.flat-courses -->
@@ -160,11 +166,12 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat4.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">Sharon Muuo</h6>
+                            <a href="#"><h6 class="courses-topic">Fashion</h6></a>
                             <p>Fashion Design, Fashion Marketing</p>
                         </div>
                     </div><!-- /.flat-courses -->
@@ -178,11 +185,12 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat5.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">Kevin Kiprono</h6>
+                            <a href="#"><h6 class="courses-topic">Health Studies</h6></a>
                             <p>Anesthesiology, Immunology</p>
                         </div>
                     </div><!-- /.flat-courses -->
@@ -190,16 +198,42 @@
 
                 <div class="col-md-3 col-sm-6 col-xs-6">
                     <div class="flat-courses">
-                        <div>
-                            <%= image_tag('course/cat6.jpg') %>
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
                         </div>
                         <div class="courses-content">
-                            <h6 class="courses-topic">Luke Okoth</h6>
+                            <a href="#"><h6 class="courses-topic">Food and Beverage Studies</h6></a>
                             <p>Culinary Arts, Pastry</p>
                         </div>
                     </div><!-- /.flat-courses -->
                 </div><!-- /.col-md-3 -->
 
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="flat-courses">
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
+                        </div>
+                        <div class="courses-content">
+                            <a href="#"><h6 class="courses-topic">Engineering & Technology</h6></a>
+                            <p>IT, Computer Science, Engineering</p>
+                        </div>
+                    </div><!-- /.flat-courses -->
+                </div><!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="flat-courses">
+                        <div class="courses-thumbnail">
+                            <a href="#"><%= image_tag('course/cat3.jpg') %></a>
+                            <a class="courses-viewmore" href="#">View more</a>
+                        </div>
+                        <div class="courses-content">
+                            <a href="#"><h6 class="courses-topic">Humanities and Social Sciences</h6></a>
+                            <p>Education, Media, Sociology</p>
+                        </div>
+                    </div><!-- /.flat-courses -->
+                </div><!-- /.col-md-3 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.flat-row -->

@@ -2,6 +2,18 @@ class StudentsController < ApplicationController
   before_action :set_student, only: [:show, :edit, :update, :destroy]
   # POST /students
   # POST /students.json
+  def index
+    
+  end
+
+  def finance
+    
+  end
+
+  def exam
+    
+  end
+
   def create
     @student = Student.new(student_params)
 

@@ -8,7 +8,10 @@ namespace :api do
     resources :students
   end
 end
+	
+  get 'students/index',to: 'students#index'
+  get 'students/finance',to: 'students#finance'
+  get 'students/exam', to: 'students#exam'
   get 'home/index',to: 'home#index'
-  root 'home#index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'home#index' 
 end
