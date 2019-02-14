@@ -3,12 +3,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 get 'dashboards/index'
   
-namespace :api do
-  namespace :v1 do
-    resources :students
-  end
-end
-	
   get 'students/index',to: 'students#index'
   get 'students/finance',to: 'students#finance'
   get 'students/exam', to: 'students#exam'
