@@ -24,12 +24,12 @@
 //= require jquery-validate
 //= require jquery.magnific-popup.min
 //= require parallax
+//
 //= require jquery.countdown
 //= require switcher
 //= require jquery.sticky
 //= require smoothscroll
 //= require main
-//
 //= require action_cable
 //= require cable
 //= require gmap3.min

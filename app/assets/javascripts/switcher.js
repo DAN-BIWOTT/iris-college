@@ -41,16 +41,16 @@ $(document).ready(function() {
                         '<a href="#" class="sw-dark">WIDE</a>' +
                     '</div>'+                      
                     '<div class="sw-pattern pattern"><h3>Background pattern:</h3>'+
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/1.png') %><img src="<%= image_tag('pattern/1.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/2.png') %><img src="<%= image_tag('pattern/2.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/3.png') %><img src="<%= image_tag('pattern/3.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/4.png') %><img src="<%= image_tag('pattern/4.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/5.png') %><img src="<%= image_tag('pattern/5.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/6.png') %><img src="<%= image_tag('pattern/6.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/7.png') %><img src="<%= image_tag('pattern/7.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/8.png') %><img src="<%= image_tag('pattern/8.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/9.png') %><img src="<%= image_tag('pattern/9.png') %></a>' +
-                        '<a href="#" class="sw-pattern" data-image="<%= image_tag('pattern/10.png') %><img src="<%= image_tag('pattern/10.png') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/1.png\') %><img src="<%= image_tag(\'pattern/1.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/2.png\') %><img src="<%= image_tag(\'pattern/2.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/3.png\') %><img src="<%= image_tag(\'pattern/3.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/4.png\') %><img src="<%= image_tag(\'pattern/4.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/5.png\') %><img src="<%= image_tag(\'pattern/5.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/6.png\') %><img src="<%= image_tag(\'pattern/6.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/7.png\') %><img src="<%= image_tag(\'pattern/7.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/8.png\') %><img src="<%= image_tag(\'pattern/8.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/9.png\') %><img src="<%= image_tag(\'pattern/9.png\') %></a>' +
+                        '<a href="#" class="sw-pattern" data-image="<%= image_tag(\'pattern/10.png\') %><img src="<%= image_tag(\'pattern/10.png\') %></a>' +
                     '</div>'+               
                   '<div class="clearfix"></div>'+
                '</div>'+

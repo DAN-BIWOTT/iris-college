@@ -9,7 +9,6 @@ gem 'rails', '~> 5.2.2'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'uglifier'
 end
  gem 'pg'
 group :development do
