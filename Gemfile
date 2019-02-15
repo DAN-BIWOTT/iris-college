@@ -9,8 +9,9 @@ gem 'rails', '~> 5.2.2'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'webpacker', '~> 3.5'
 end
- gem 'pg'
+
 group :development do
   # Use mysql as the database for Active Record
   gem 'mysql2', '>= 0.4.4', '< 0.6.0'
