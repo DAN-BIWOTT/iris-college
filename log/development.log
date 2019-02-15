@@ -32664,3 +32664,151 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 264ms (Views: 234.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:45:17 +0300
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:45:19 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (22942.4ms)
+  Rendered home/_navigation.html.erb (21496.7ms)
+  Rendered home/_footer.html.erb (92.8ms)
+  Rendered home/index.html.erb within layouts/application (24199.2ms)
+  Rendered home/_footer.html.erb (8.4ms)
+  Rendered home/index.html.erb within layouts/application (22662.5ms)
+Completed 200 OK in 35387ms (Views: 35256.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 35295ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     6:     <%= csp_meta_tag %>
+     7:  
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> 
+    10:   </head>
+    11: 
+    12:  <body class="header-sticky"> 
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__586665574_122720520'
+Started GET "/" for 127.0.0.1 at 2019-02-15 12:46:16 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (4138.5ms)
+  Rendered home/_footer.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (4280.0ms)
+Completed 200 OK in 4987ms (Views: 4960.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2019-02-15 12:47:30 +0300
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/admin
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 186ms (ActiveRecord: 20.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2019-02-15 12:47:31 +0300
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb (4024.2ms)
+Completed 200 OK in 4194ms (Views: 4129.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2019-02-15 12:47:35 +0300
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (2.8ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb (505.7ms)
+Completed 200 OK in 617ms (Views: 611.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2019-02-15 12:49:44 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/students" for 127.0.0.1 at 2019-02-15 12:49:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/students"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/students/index" for 127.0.0.1 at 2019-02-15 12:50:28 +0300
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/_navigation.html.erb (1.2ms)
+  Rendered students/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 435ms (Views: 408.4ms | ActiveRecord: 0.0ms)
+
+
