@@ -1,0 +1,205 @@
+I, [2019-02-10T17:04:30.444804 #15504]  INFO -- : [b552d877-ff4a-46dc-8efc-729319da73bd] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:04:30 +0300
+I, [2019-02-10T17:04:30.445803 #15504]  INFO -- : [b552d877-ff4a-46dc-8efc-729319da73bd] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:04:30.536745 #15504]  INFO -- : [b552d877-ff4a-46dc-8efc-729319da73bd] Completed 500 Internal Server Error in 91ms
+F, [2019-02-10T17:04:30.538747 #15504] FATAL -- : [b552d877-ff4a-46dc-8efc-729319da73bd]   
+F, [2019-02-10T17:04:30.538747 #15504] FATAL -- : [b552d877-ff4a-46dc-8efc-729319da73bd] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:04:30.538747 #15504] FATAL -- : [b552d877-ff4a-46dc-8efc-729319da73bd]   
+F, [2019-02-10T17:04:30.538747 #15504] FATAL -- : [b552d877-ff4a-46dc-8efc-729319da73bd] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[b552d877-ff4a-46dc-8efc-729319da73bd] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:04:30.723631 #15504]  INFO -- : [2101cf3f-9877-4821-ac26-9f31108fe4bf] Started GET "/favicon.ico" for 127.0.0.1 at 2019-02-10 17:04:30 +0300
+F, [2019-02-10T17:04:30.725631 #15504] FATAL -- : [2101cf3f-9877-4821-ac26-9f31108fe4bf]   
+F, [2019-02-10T17:04:30.726630 #15504] FATAL -- : [2101cf3f-9877-4821-ac26-9f31108fe4bf] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+F, [2019-02-10T17:04:30.726630 #15504] FATAL -- : [2101cf3f-9877-4821-ac26-9f31108fe4bf]   
+F, [2019-02-10T17:04:30.726630 #15504] FATAL -- : [2101cf3f-9877-4821-ac26-9f31108fe4bf] actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] railties (5.2.2) lib/rails/engine.rb:524:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+[2101cf3f-9877-4821-ac26-9f31108fe4bf] puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+I, [2019-02-10T17:04:54.907684 #15504]  INFO -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:04:54 +0300
+I, [2019-02-10T17:04:54.908682 #15504]  INFO -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:04:54.911680 #15504]  INFO -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] Completed 500 Internal Server Error in 2ms
+F, [2019-02-10T17:04:54.911680 #15504] FATAL -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc]   
+F, [2019-02-10T17:04:54.912680 #15504] FATAL -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:04:54.912680 #15504] FATAL -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc]   
+F, [2019-02-10T17:04:54.912680 #15504] FATAL -- : [df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[df7dd3dd-3db1-44b2-8721-a6e62e4ac8fc] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:22:03.602377 #15504]  INFO -- : [172205e5-89ce-4f10-88c8-27fe47929c75] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:22:03 +0300
+I, [2019-02-10T17:22:03.603378 #15504]  INFO -- : [172205e5-89ce-4f10-88c8-27fe47929c75] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:22:03.606376 #15504]  INFO -- : [172205e5-89ce-4f10-88c8-27fe47929c75] Completed 500 Internal Server Error in 3ms
+F, [2019-02-10T17:22:03.607375 #15504] FATAL -- : [172205e5-89ce-4f10-88c8-27fe47929c75]   
+F, [2019-02-10T17:22:03.607375 #15504] FATAL -- : [172205e5-89ce-4f10-88c8-27fe47929c75] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:22:03.608374 #15504] FATAL -- : [172205e5-89ce-4f10-88c8-27fe47929c75]   
+F, [2019-02-10T17:22:03.608374 #15504] FATAL -- : [172205e5-89ce-4f10-88c8-27fe47929c75] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[172205e5-89ce-4f10-88c8-27fe47929c75] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:22:28.124171 #2892]  INFO -- : [3835f1bd-de92-48ba-85e3-88963c7b345a] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:22:28 +0300
+I, [2019-02-10T17:22:28.127168 #2892]  INFO -- : [3835f1bd-de92-48ba-85e3-88963c7b345a] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:22:28.139161 #2892]  INFO -- : [3835f1bd-de92-48ba-85e3-88963c7b345a] Completed 500 Internal Server Error in 12ms
+F, [2019-02-10T17:22:28.140160 #2892] FATAL -- : [3835f1bd-de92-48ba-85e3-88963c7b345a]   
+F, [2019-02-10T17:22:28.141160 #2892] FATAL -- : [3835f1bd-de92-48ba-85e3-88963c7b345a] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:22:28.141160 #2892] FATAL -- : [3835f1bd-de92-48ba-85e3-88963c7b345a]   
+F, [2019-02-10T17:22:28.141160 #2892] FATAL -- : [3835f1bd-de92-48ba-85e3-88963c7b345a] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[3835f1bd-de92-48ba-85e3-88963c7b345a] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:22:30.972403 #2892]  INFO -- : [a37c8eb4-3c59-479e-a5af-390eba8de740] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:22:30 +0300
+I, [2019-02-10T17:22:30.974404 #2892]  INFO -- : [a37c8eb4-3c59-479e-a5af-390eba8de740] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:22:30.979398 #2892]  INFO -- : [a37c8eb4-3c59-479e-a5af-390eba8de740] Completed 500 Internal Server Error in 4ms
+F, [2019-02-10T17:22:30.979398 #2892] FATAL -- : [a37c8eb4-3c59-479e-a5af-390eba8de740]   
+F, [2019-02-10T17:22:30.979398 #2892] FATAL -- : [a37c8eb4-3c59-479e-a5af-390eba8de740] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:22:30.979398 #2892] FATAL -- : [a37c8eb4-3c59-479e-a5af-390eba8de740]   
+F, [2019-02-10T17:22:30.980397 #2892] FATAL -- : [a37c8eb4-3c59-479e-a5af-390eba8de740] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[a37c8eb4-3c59-479e-a5af-390eba8de740] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:22:31.754917 #2892]  INFO -- : [187041df-760f-447e-a0d0-fe55950063f2] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:22:31 +0300
+I, [2019-02-10T17:22:31.755916 #2892]  INFO -- : [187041df-760f-447e-a0d0-fe55950063f2] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:22:31.759916 #2892]  INFO -- : [187041df-760f-447e-a0d0-fe55950063f2] Completed 500 Internal Server Error in 4ms
+F, [2019-02-10T17:22:31.761914 #2892] FATAL -- : [187041df-760f-447e-a0d0-fe55950063f2]   
+F, [2019-02-10T17:22:31.761914 #2892] FATAL -- : [187041df-760f-447e-a0d0-fe55950063f2] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:22:31.761914 #2892] FATAL -- : [187041df-760f-447e-a0d0-fe55950063f2]   
+F, [2019-02-10T17:22:31.761914 #2892] FATAL -- : [187041df-760f-447e-a0d0-fe55950063f2] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[187041df-760f-447e-a0d0-fe55950063f2] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:23:11.591239 #15756]  INFO -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:23:11 +0300
+I, [2019-02-10T17:23:11.593238 #15756]  INFO -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:23:11.603231 #15756]  INFO -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] Completed 500 Internal Server Error in 10ms
+F, [2019-02-10T17:23:11.604230 #15756] FATAL -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c]   
+F, [2019-02-10T17:23:11.604230 #15756] FATAL -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:23:11.604230 #15756] FATAL -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c]   
+F, [2019-02-10T17:23:11.605228 #15756] FATAL -- : [a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[a4735ca2-4ecd-45c1-b892-e9d9c1ceb36c] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:35:20.607184 #15756]  INFO -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:35:20 +0300
+I, [2019-02-10T17:35:20.608183 #15756]  INFO -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:35:20.611180 #15756]  INFO -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e] Completed 500 Internal Server Error in 3ms
+F, [2019-02-10T17:35:20.612182 #15756] FATAL -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e]   
+F, [2019-02-10T17:35:20.612182 #15756] FATAL -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:35:20.612182 #15756] FATAL -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e]   
+F, [2019-02-10T17:35:20.612182 #15756] FATAL -- : [7c246d49-745e-4a88-b2d6-e49ad4477d0e] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[7c246d49-745e-4a88-b2d6-e49ad4477d0e] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:37:52.790561 #15756]  INFO -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:37:52 +0300
+I, [2019-02-10T17:37:52.791561 #15756]  INFO -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3] Processing by Api::V1::StudentsController#index as HTML
+I, [2019-02-10T17:37:52.795562 #15756]  INFO -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3] Completed 500 Internal Server Error in 4ms
+F, [2019-02-10T17:37:52.797555 #15756] FATAL -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3]   
+F, [2019-02-10T17:37:52.797555 #15756] FATAL -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:37:52.797555 #15756] FATAL -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3]   
+F, [2019-02-10T17:37:52.797555 #15756] FATAL -- : [fa60e687-a5f0-4038-a261-2ec57e7d97b3] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[fa60e687-a5f0-4038-a261-2ec57e7d97b3] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:42:27.618911 #15756]  INFO -- : [140458d8-65e1-4b60-a60d-af4129dfc484] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:42:27 +0300
+F, [2019-02-10T17:42:27.654889 #15756] FATAL -- : [140458d8-65e1-4b60-a60d-af4129dfc484]   
+F, [2019-02-10T17:42:27.654889 #15756] FATAL -- : [140458d8-65e1-4b60-a60d-af4129dfc484] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:42:27.654889 #15756] FATAL -- : [140458d8-65e1-4b60-a60d-af4129dfc484]   
+F, [2019-02-10T17:42:27.654889 #15756] FATAL -- : [140458d8-65e1-4b60-a60d-af4129dfc484] mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `connect'
+[140458d8-65e1-4b60-a60d-af4129dfc484] mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/model_schema.rb:324:in `table_exists?'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/attribute_methods.rb:163:in `attribute_names'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:109:in `block in include'
+[140458d8-65e1-4b60-a60d-af4129dfc484] C:/Ruby24-x64/lib/ruby/2.4.0/mutex_m.rb:74:in `synchronize'
+[140458d8-65e1-4b60-a60d-af4129dfc484] C:/Ruby24-x64/lib/ruby/2.4.0/mutex_m.rb:74:in `mu_synchronize'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:103:in `include'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:277:in `_extract_parameters'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:273:in `_wrap_parameters'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+[140458d8-65e1-4b60-a60d-af4129dfc484] warden (1.2.8) lib/warden/manager.rb:34:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/etag.rb:25:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/head.rb:12:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+[140458d8-65e1-4b60-a60d-af4129dfc484] railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+[140458d8-65e1-4b60-a60d-af4129dfc484] railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] railties (5.2.2) lib/rails/engine.rb:524:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+[140458d8-65e1-4b60-a60d-af4129dfc484] puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+[140458d8-65e1-4b60-a60d-af4129dfc484] puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+[140458d8-65e1-4b60-a60d-af4129dfc484] puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+[140458d8-65e1-4b60-a60d-af4129dfc484] puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+I, [2019-02-10T17:42:36.142624 #15756]  INFO -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:42:36 +0300
+I, [2019-02-10T17:42:36.144624 #15756]  INFO -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca] Processing by Api::V1::StudentsController#index as */*
+I, [2019-02-10T17:42:36.145623 #15756]  INFO -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca]   Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1"}}
+I, [2019-02-10T17:42:36.149622 #15756]  INFO -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca] Completed 500 Internal Server Error in 4ms
+F, [2019-02-10T17:42:36.151620 #15756] FATAL -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca]   
+F, [2019-02-10T17:42:36.151620 #15756] FATAL -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:42:36.151620 #15756] FATAL -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca]   
+F, [2019-02-10T17:42:36.151620 #15756] FATAL -- : [349ee639-fdf4-47b3-918e-745b6a51b7ca] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[349ee639-fdf4-47b3-918e-745b6a51b7ca] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:44:48.357578 #15756]  INFO -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:44:48 +0300
+I, [2019-02-10T17:44:48.361570 #15756]  INFO -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5] Processing by Api::V1::StudentsController#index as */*
+I, [2019-02-10T17:44:48.361570 #15756]  INFO -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5]   Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1"}}
+I, [2019-02-10T17:44:48.368566 #15756]  INFO -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5] Completed 500 Internal Server Error in 6ms
+F, [2019-02-10T17:44:48.370565 #15756] FATAL -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5]   
+F, [2019-02-10T17:44:48.370565 #15756] FATAL -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:44:48.371566 #15756] FATAL -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5]   
+F, [2019-02-10T17:44:48.371566 #15756] FATAL -- : [f673def9-c38d-4c34-8b31-8f445f14cfd5] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[f673def9-c38d-4c34-8b31-8f445f14cfd5] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:46:07.292788 #15756]  INFO -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:46:07 +0300
+I, [2019-02-10T17:46:07.293788 #15756]  INFO -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1] Processing by Api::V1::StudentsController#index as */*
+I, [2019-02-10T17:46:07.293788 #15756]  INFO -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1]   Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1"}}
+I, [2019-02-10T17:46:07.296786 #15756]  INFO -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1] Completed 500 Internal Server Error in 2ms
+F, [2019-02-10T17:46:07.297785 #15756] FATAL -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1]   
+F, [2019-02-10T17:46:07.297785 #15756] FATAL -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:46:07.297785 #15756] FATAL -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1]   
+F, [2019-02-10T17:46:07.297785 #15756] FATAL -- : [b2e4f951-ad24-404d-aa18-42af7f7823a1] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[b2e4f951-ad24-404d-aa18-42af7f7823a1] app/controllers/api/v1/students_controller.rb:6:in `index'
+I, [2019-02-10T17:46:32.797971 #15756]  INFO -- : [2c069df9-45ea-43e7-af93-7f637805cdea] Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-10 17:46:32 +0300
+I, [2019-02-10T17:46:32.799968 #15756]  INFO -- : [2c069df9-45ea-43e7-af93-7f637805cdea] Processing by Api::V1::StudentsController#index as */*
+I, [2019-02-10T17:46:32.799968 #15756]  INFO -- : [2c069df9-45ea-43e7-af93-7f637805cdea]   Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1"}}
+I, [2019-02-10T17:46:32.812962 #15756]  INFO -- : [2c069df9-45ea-43e7-af93-7f637805cdea] Completed 500 Internal Server Error in 13ms
+F, [2019-02-10T17:46:32.813960 #15756] FATAL -- : [2c069df9-45ea-43e7-af93-7f637805cdea]   
+F, [2019-02-10T17:46:32.813960 #15756] FATAL -- : [2c069df9-45ea-43e7-af93-7f637805cdea] Mysql2::Error::ConnectionError (Access denied for user ''@'localhost' to database 'iris_production'):
+F, [2019-02-10T17:46:32.813960 #15756] FATAL -- : [2c069df9-45ea-43e7-af93-7f637805cdea]   
+F, [2019-02-10T17:46:32.813960 #15756] FATAL -- : [2c069df9-45ea-43e7-af93-7f637805cdea] app/controllers/api/v1/students_controller.rb:52:in `allStd'
+[2c069df9-45ea-43e7-af93-7f637805cdea] app/controllers/api/v1/students_controller.rb:6:in `index'
