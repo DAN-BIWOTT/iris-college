@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery.min
-//= require bootstrap.min
 //= require jquery.easing
 //= require imagesloaded.min
 //= require jquery.isotope.min
