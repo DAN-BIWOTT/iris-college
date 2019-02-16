@@ -9,7 +9,6 @@ gem 'rails', '~> 5.2.2'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-  gem 'webpacker', '~> 3.5'
 end
 
 group :development do
