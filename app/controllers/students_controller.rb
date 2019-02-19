@@ -1,9 +1,9 @@
 class StudentsController < ApplicationController
-  before_action :set_student, only: [:show, :edit, :update, :destroy]
+  before_action :set_student, only: [:show, :edit, :update, :destroy] 
   # POST /students
   # POST /students.json
   def index
-    
+    @student = Student.all
   end
 
   def finance

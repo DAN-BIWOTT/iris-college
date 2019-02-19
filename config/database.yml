@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: irisCollege
-  username: irisCollege
-  password: <%= ENV['IRIS_DATABASE_PASSWORD'] %>
+  username: root #irisCollege
+  password: Kibiwott_254 #<%= ENV['IRIS_DATABASE_PASSWORD'] %>
