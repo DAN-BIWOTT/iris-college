@@ -5,9 +5,9 @@
                 <div class="row">
                     <div class="col-md-2">
                         <div id="logo" class="logo">
-                            <a href="index.html" rel="home">
-                                <%= image_tag('logo.png') %>
-                            </a>
+                            <%= link_to root_path do %>
+                            <%= image_tag('logo.png') %>
+                            <% end %>
                         </div><!-- /.logo -->
                         <div class="btn-menu">
                             <span></span>
@@ -18,38 +18,15 @@
                             
                             <nav id="mainnav" class="mainnav">
                                 <ul class="menu">
+                                    <li><%= link_to 'Courses',home_courses_path %></li>  
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu right-sub-menu"> 
-                                            <li class="sub-parent"><a href="#">About Us</a>
-                                                <ul class="submenu"> 
-                                                    <li><a href="about_us_1.html">About Us 01</a></li>
-                                                    <li><a href="about_us_2.html">About Us 02</a></li>
-                                                </ul><!-- /.submenu -->
-                                            </li>
+                                            <li><%= link_to 'About us',home_about_us_path %></li>
                                             
-                                            <li class="sub-parent"><a href="#">Contac Us</a>
-                                                <ul class="submenu"> 
-                                                    <li><a href="contact_us.html">Contact Us 01</a></li>
-                                                    <li><a href="contact_us_2.html">Contact Us 02</a></li>                                            
-                                                </ul><!-- /.submenu -->               
-                                            </li>
+                                            <li><%= link_to 'Contact Us',home_contact_us_path %></li>
                                         </ul><!-- /.submenu -->
                                     </li>
-                                    <li><a href="#">Gallery</a>
-                                        <ul class="submenu right-sub-menu">
-                                            <li><a href="gallery_v1.html">Gallery 01</a></li>
-                                            <li><a href="gallery_v2.html">Gallery 02</a></li>
-                                        </ul><!-- /.submenu -->
-                                    </li>                                                
-                                    <li><a href="blog.html">Blog </a>
-                                        <ul class="submenu right-sub-menu"> 
-                                            <li><a href="blog.html">Blog FullWidth</a>
-                                            </li>
-                                            <li><a href="blog_v2.html">Blog masonry</a></li>           
-                                            <li><a href="blog_single.html">Blog Single 01</a></li>
-                                            <li><a href="blog_single_v2.html">Blog Single 02</a></li>
-                                        </ul><!-- /.submenu -->
-                                    </li>
+                                    <li><%= link_to 'Blog',home_blog_path %></li>
                                 </ul><!-- /.menu -->
                             </nav><!-- /.mainnav -->  
                         </div><!-- /.nav-wrap -->

@@ -41447,3 +41447,2578 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 3548ms (Views: 3510.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-19 05:13:58 +0300
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (16772.1ms)
+  Rendered home/_footer.html.erb (3.7ms)
+  Rendered home/index.html.erb within layouts/application (16942.1ms)
+Completed 200 OK in 20502ms (Views: 20475.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:41:04 +0300
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (16784.5ms)
+  Rendered home/_footer.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (16974.5ms)
+Completed 200 OK in 20818ms (Views: 20729.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:41:44 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (4.7ms)
+  Rendered home/_footer.html.erb (3.9ms)
+  Rendered home/index.html.erb within layouts/application (136.9ms)
+Completed 200 OK in 758ms (Views: 742.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:42:18 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (6.0ms)
+  Rendered home/_footer.html.erb (5.0ms)
+  Rendered home/index.html.erb within layouts/application (164.3ms)
+Completed 200 OK in 1108ms (Views: 1087.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:42:59 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (5.1ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (134.8ms)
+Completed 200 OK in 704ms (Views: 688.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:43:27 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (8.1ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (146.7ms)
+Completed 200 OK in 803ms (Views: 788.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:45:14 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.4ms)
+  Rendered home/_navigation.html.erb (7.4ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (142.4ms)
+Completed 500 Internal Server Error in 4017ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( main.js )` to `config/initializers/assets.rb` and restart your server):
+    15:            
+    16:         <%= javascript_include_tag 'active_admin', 'data-turbolinks-track': 'reload' %>
+    17:         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18:         <%= javascript_include_tag 'main', 'data-turbolinks-track': 'reload' %>
+    19:         <%= javascript_include_tag 'jquery.themepunch.tools.min', 'data-turbolinks-track': 'reload' %>
+    20:         <%= javascript_include_tag 'jquery.themepunch.revolution.min', 'data-turbolinks-track': 'reload' %>
+    21:         <%= javascript_include_tag 'slider', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__531830532_65347600'
+Started GET "/" for 127.0.0.1 at 2019-02-19 15:45:37 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (1848.1ms)
+  Rendered home/_footer.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (1999.1ms)
+Completed 200 OK in 2834ms (Views: 2813.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:27:23 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (2836.5ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (2974.4ms)
+Completed 200 OK in 4035ms (Views: 4013.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:30:59 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (3090.2ms)
+  Rendered home/_footer.html.erb (5.0ms)
+  Rendered home/index.html.erb within layouts/application (3228.4ms)
+Completed 200 OK in 4886ms (Views: 4866.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:50:24 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (19346.2ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (19518.3ms)
+Completed 200 OK in 21130ms (Views: 21101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:53:02 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.9ms)
+  Rendered home/_navigation.html.erb (3243.4ms)
+  Rendered home/_footer.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (3379.3ms)
+Completed 200 OK in 4343ms (Views: 4313.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:53:32 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (7.1ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (141.9ms)
+Completed 200 OK in 924ms (Views: 910.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 16:54:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (21.9ms)
+  Rendered home/_footer.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (180.4ms)
+Completed 200 OK in 1173ms (Views: 1156.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 01:54:02 +0300
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (14.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.2ms)
+  Rendered home/_navigation.html.erb (11101.8ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (11235.4ms)
+Completed 200 OK in 13605ms (Views: 13575.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:01:14 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (14513.2ms)
+  Rendered home/_footer.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (14651.0ms)
+Completed 200 OK in 18006ms (Views: 17979.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:02:32 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.4ms)
+  Rendered home/_footer.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (120.7ms)
+Completed 200 OK in 767ms (Views: 753.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:02:56 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.8ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (121.3ms)
+Completed 200 OK in 939ms (Views: 924.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:03:12 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (8.3ms)
+  Rendered home/_footer.html.erb (4.9ms)
+  Rendered home/index.html.erb within layouts/application (171.7ms)
+Completed 200 OK in 1139ms (Views: 1124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:05:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (9.5ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (194.9ms)
+Completed 500 Internal Server Error in 862ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    15:            
+    16:         <%= javascript_include_tag 'active_admin', 'data-turbolinks-track': 'reload' %>
+    17:         
+    18:         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:         <%= javascript_include_tag 'slider', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+  
+app/assets/javascripts/application.js:38
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__494319619_91180080'
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:05:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (5.5ms)
+  Rendered home/_footer.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (151.0ms)
+Completed 200 OK in 1617ms (Views: 1595.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:05:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.6ms)
+  Rendered home/_footer.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (122.4ms)
+Completed 200 OK in 922ms (Views: 907.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:06:14 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.7ms)
+  Rendered home/_footer.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (115.8ms)
+Completed 200 OK in 763ms (Views: 743.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:06:55 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.4ms)
+  Rendered home/_footer.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (131.6ms)
+Completed 200 OK in 1026ms (Views: 1011.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:07:21 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (7.2ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (149.1ms)
+Completed 200 OK in 974ms (Views: 952.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:07:37 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (7.3ms)
+  Rendered home/_footer.html.erb (4.2ms)
+  Rendered home/index.html.erb within layouts/application (210.3ms)
+Completed 200 OK in 1060ms (Views: 1042.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:08:21 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (6.1ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (186.2ms)
+Completed 200 OK in 896ms (Views: 876.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:08:36 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.1ms)
+  Rendered home/_footer.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (136.1ms)
+Completed 200 OK in 798ms (Views: 784.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:08:56 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (4.3ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (135.7ms)
+Completed 200 OK in 849ms (Views: 835.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:09:06 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (8.8ms)
+  Rendered home/_footer.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (272.8ms)
+Completed 200 OK in 1201ms (Views: 1184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:09:46 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (9.0ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (169.1ms)
+Completed 200 OK in 1085ms (Views: 1064.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:10:00 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (5.5ms)
+  Rendered home/_footer.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (145.7ms)
+Completed 200 OK in 1210ms (Views: 1195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:20:09 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (2595.1ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (2738.0ms)
+Completed 200 OK in 3537ms (Views: 3514.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:22:54 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (1411.7ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (1537.8ms)
+Completed 200 OK in 2315ms (Views: 2288.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:28:09 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (2550.2ms)
+  Rendered home/_footer.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (2710.0ms)
+Completed 200 OK in 3300ms (Views: 3279.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 02:59:43 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1073.4ms)
+  Rendered home/index.html.erb within layouts/application (1098.7ms)
+Completed 500 Internal Server Error in 1281ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `student_index_path' for #<#<Class:0x000000000a64d930>:0x000000000a6127e0>
+Did you mean?  students_index_path
+               students_index_url):
+    18:                 <div class="col-md-6">
+    19:                     <div class="top-navigator">
+    20:                         <ul>
+    21:                             <li><%= link_to 'Student Log in', student_index_path %></li>
+    22:                             <li><%= link_to 'Staff Log in', new_admin_user_session_path %></li>
+    23:                             
+    24:                         </ul>
+  
+app/views/home/_shelf.html.erb:21:in `_app_views_home__shelf_html_erb__611627988_83184580'
+app/views/home/index.html.erb:4:in `_app_views_home_index_html_erb__305133755_87195280'
+Started GET "/" for 127.0.0.1 at 2019-02-20 03:00:00 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (1750.5ms)
+  Rendered home/_footer.html.erb (6.8ms)
+  Rendered home/index.html.erb within layouts/application (1901.1ms)
+Completed 200 OK in 2773ms (Views: 2753.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/index" for 127.0.0.1 at 2019-02-20 03:00:10 +0300
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/_navigation.html.erb (0.8ms)
+  Rendered students/index.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 521ms (Views: 485.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 03:33:06 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7.5ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (148.4ms)
+Completed 200 OK in 10199ms (Views: 10177.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-20 13:24:54 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (16248.2ms)
+  Rendered home/_footer.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (16551.0ms)
+Completed 200 OK in 19823ms (Views: 19752.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/student_show/student" for 127.0.0.1 at 2019-02-20 13:25:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/student_show/student"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/student_show/student" for 127.0.0.1 at 2019-02-20 13:26:21 +0300
+  
+ActionController::RoutingError (uninitialized constant Api::StudentShowController):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/student_show/student" for 127.0.0.1 at 2019-02-20 13:28:12 +0300
+  
+ActionController::RoutingError (uninitialized constant Api::StudentShowController):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/student_show/student" for 127.0.0.1 at 2019-02-20 13:33:06 +0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant Api::StudentShowController):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/student_show/student" for 127.0.0.1 at 2019-02-20 13:55:19 +0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/api/student_show/student"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/staffs" for 127.0.0.1 at 2019-02-20 13:55:34 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/staffs"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 13:55:36 +0300
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 13:55:40 +0300
+  [1m[35m (3.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::StudentsController#show as JSON
+Processing by Api::V1::StudentsController#show as JSON
+Completed 404 Not Found in 242ms (ActiveRecord: 143.0ms)
+
+
+Completed 404 Not Found in 240ms (ActiveRecord: 1.7ms)
+
+
+  
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students/1" for 127.0.0.1 at 2019-02-20 13:56:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/students/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 13:56:47 +0300
+Processing by Api::V1::StudentsController#show as JSON
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students/1" for 127.0.0.1 at 2019-02-20 13:59:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/students/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students/1" for 127.0.0.1 at 2019-02-20 14:00:04 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/students/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:00:25 +0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::StudentsController#show as HTML
+Completed 404 Not Found in 29ms (ActiveRecord: 17.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students/1" for 127.0.0.1 at 2019-02-20 14:00:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/students/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:01:10 +0300
+Processing by Api::V1::StudentsController#show as JSON
+Completed 404 Not Found in 19ms (ActiveRecord: 16.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students.json" for 127.0.0.1 at 2019-02-20 14:01:15 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::StudentsController#show as JSON
+Completed 404 Not Found in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students/index" for 127.0.0.1 at 2019-02-20 14:02:23 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/students/index"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:02:35 +0300
+Processing by Api::V1::StudentsController#show as JSON
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student without an ID):
+  
+app/controllers/api/v1/students_controller.rb:57:in `singleStd'
+app/controllers/api/v1/students_controller.rb:11:in `show'
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:03:25 +0300
+Processing by Api::V1::StudentsController#show as JSON
+  [1m[36mStudent Load (0.7ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 79ms (Views: 5.0ms | ActiveRecord: 51.5ms)
+
+
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:04:08 +0300
+Processing by Api::V1::StudentsController#show as JSON
+  Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon"}}
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/students/index" for 127.0.0.1 at 2019-02-20 14:12:52 +0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::StudentsController#index as JSON
+  [1m[36mStudent Load (0.7ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 36ms (Views: 2.2ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:13:16 +0300
+Processing by Api::V1::StudentsController#index as JSON
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 55ms (Views: 3.6ms | ActiveRecord: 26.1ms)
+
+
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:13:26 +0300
+Processing by Api::V1::StudentsController#index as JSON
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 45ms (Views: 3.8ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:16:20 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::StudentsController#index as JSON
+  Parameters: {"firstName"=>"Jason", "lastName"=>"Amazon", "teacher_id"=>"1", "student"=>{"firstName"=>"Jason", "lastName"=>"Amazon"}}
+  [1m[36mStudent Load (0.6ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 27ms (Views: 2.9ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/api/v1/students" for 127.0.0.1 at 2019-02-20 14:16:25 +0300
+Processing by Api::V1::StudentsController#index as JSON
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT id,firstName,lastName FROM students[0m
+  ↳ app/controllers/api/v1/students_controller.rb:52
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-21 12:38:58 +0300
+Started GET "/" for 127.0.0.1 at 2019-02-21 12:39:01 +0300
+  [1m[35m (658.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (277.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (13.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (14.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (46581.9ms)
+  Rendered home/_navigation.html.erb (46584.3ms)
+  Rendered home/_footer.html.erb (9.8ms)
+  Rendered home/_footer.html.erb (6.9ms)
+  Rendered home/index.html.erb within layouts/application (47207.2ms)
+  Rendered home/index.html.erb within layouts/application (47238.6ms)
+Started GET "/" for 127.0.0.1 at 2019-02-21 12:39:52 +0300
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (8.0ms)
+Completed 500 Internal Server Error in 50840ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    13: 
+    14:         <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    15:            
+    16:         <%= javascript_include_tag 'active_admin', 'data-turbolinks-track': 'reload' %>
+    17:         <!-- Javascript -->
+    18:            <script type="text/javascript" src="/assets/jquery.min.js" data-turbolinks-track="reload"></script>
+    19:            <script type="text/javascript" src="/assets/bootstrap.min.js" data-turbolinks-track="reload"></script>
+  
+app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__900439927_75367120'
+  Rendered home/_footer.html.erb (10.9ms)
+  Rendered home/index.html.erb within layouts/application (809.9ms)
+Completed 200 OK in 53556ms (Views: 53352.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3407ms (Views: 3390.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2019-02-21 14:41:37 +0300
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/admin
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 158ms (ActiveRecord: 44.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2019-02-21 14:41:39 +0300
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activeadmin-1.4.3/app/views/active_admin/page/index.html.arb (2791.4ms)
+Completed 200 OK in 2905ms (Views: 2877.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:41:52 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (9.9ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (191.9ms)
+Completed 200 OK in 815ms (Views: 792.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo@2x.png" for 127.0.0.1 at 2019-02-21 14:41:55 +0300
+Started GET "/images/icon/line@2x.png" for 127.0.0.1 at 2019-02-21 14:41:56 +0300
+  [1m[35m (11.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/images/icon/line@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:42:20 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (11.5ms)
+  Rendered home/_footer.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (206.8ms)
+Completed 200 OK in 773ms (Views: 756.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo@2x.png" for 127.0.0.1 at 2019-02-21 14:42:22 +0300
+Started GET "/images/icon/line@2x.png" for 127.0.0.1 at 2019-02-21 14:42:22 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/images/icon/line@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:43:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (9.1ms)
+  Rendered home/_footer.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (213.3ms)
+Completed 200 OK in 951ms (Views: 935.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/icon/line@2x.png" for 127.0.0.1 at 2019-02-21 14:43:36 +0300
+Started GET "/images/logo@2x.png" for 127.0.0.1 at 2019-02-21 14:43:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo@2x.png"):
+  
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+ActionController::RoutingError (No route matches [GET] "/images/icon/line@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:44:13 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (8.6ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (145.7ms)
+Completed 200 OK in 898ms (Views: 883.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/icon/line@2x.png" for 127.0.0.1 at 2019-02-21 14:44:14 +0300
+Started GET "/images/logo@2x.png" for 127.0.0.1 at 2019-02-21 14:44:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/icon/line@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:44:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2019-02-21 14:44:28 +0300
+  Rendered home/_shelf.html.erb (1.1ms)
+Processing by HomeController#index as HTML
+  Rendered home/_navigation.html.erb (6.5ms)
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (7.0ms)
+  Rendered home/_footer.html.erb (5.9ms)
+  Rendered home/index.html.erb within layouts/application (564.4ms)
+  Rendered home/_footer.html.erb (12.5ms)
+  Rendered home/index.html.erb within layouts/application (413.0ms)
+Completed 200 OK in 3718ms (Views: 3259.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1105ms (Views: 1086.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo@2x.png" for 127.0.0.1 at 2019-02-21 14:44:30 +0300
+Started GET "/images/icon/line@2x.png" for 127.0.0.1 at 2019-02-21 14:44:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/images/icon/line@2x.png"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-02-21 17:52:54 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.2ms)
+  Rendered home/_navigation.html.erb (7.7ms)
+  Rendered home/_footer.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (173.4ms)
+Completed 200 OK in 841ms (Views: 821.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-21 17:53:15 +0300
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (1943.0ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (2106.2ms)
+Completed 200 OK in 2861ms (Views: 2831.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:14:27 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (33011.4ms)
+  Rendered home/_footer.html.erb (17.0ms)
+  Rendered home/index.html.erb within layouts/application (33250.7ms)
+Completed 200 OK in 37696ms (Views: 37655.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:16:23 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.4ms)
+  Rendered home/_footer.html.erb (4.2ms)
+  Rendered home/index.html.erb within layouts/application (162.8ms)
+Completed 200 OK in 783ms (Views: 767.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:16:45 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (5.5ms)
+  Rendered home/_footer.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (151.0ms)
+Completed 200 OK in 689ms (Views: 665.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:17:01 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.9ms)
+  Rendered home/_navigation.html.erb (10.5ms)
+  Rendered home/_footer.html.erb (5.4ms)
+  Rendered home/index.html.erb within layouts/application (242.5ms)
+Completed 200 OK in 918ms (Views: 895.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:27:00 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (2100.1ms)
+  Rendered home/_footer.html.erb (6.4ms)
+  Rendered home/index.html.erb within layouts/application (2286.0ms)
+Completed 200 OK in 3305ms (Views: 3269.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:27:10 +0300
+  
+ActionController::RoutingError (uninitialized constant DashboardsController):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:27:50 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (14.4ms)
+  Rendered home/_footer.html.erb (3.2ms)
+  Rendered home/courses.html.erb within layouts/application (110.1ms)
+Completed 200 OK in 856ms (Views: 824.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/course_list.html" for 127.0.0.1 at 2019-02-22 22:28:25 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/course_list.html"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/course.html" for 127.0.0.1 at 2019-02-22 22:28:30 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/home/course.html"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/course_list.html" for 127.0.0.1 at 2019-02-22 22:29:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/course_list.html"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:29:15 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.4ms)
+  Rendered home/_navigation.html.erb (741.1ms)
+  Rendered home/_footer.html.erb (41.6ms)
+  Rendered home/courses.html.erb within layouts/application (4908.7ms)
+Completed 200 OK in 8429ms (Views: 7722.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:29:47 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (5.8ms)
+  Rendered home/_footer.html.erb (4.6ms)
+  Rendered home/courses.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 713ms (Views: 691.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:31:46 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (5.0ms)
+  Rendered home/_footer.html.erb (2.9ms)
+  Rendered home/courses.html.erb within layouts/application (106.8ms)
+Completed 200 OK in 764ms (Views: 746.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:32:53 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (4.9ms)
+  Rendered home/_footer.html.erb (3.3ms)
+  Rendered home/courses.html.erb within layouts/application (72.1ms)
+Completed 200 OK in 523ms (Views: 507.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:33:00 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (9.8ms)
+  Rendered home/_footer.html.erb (2.4ms)
+  Rendered home/courses.html.erb within layouts/application (86.2ms)
+Completed 200 OK in 736ms (Views: 709.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:35:25 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.9ms)
+  Rendered home/_navigation.html.erb (2040.0ms)
+  Rendered home/_footer.html.erb (2.7ms)
+  Rendered home/courses.html.erb within layouts/application (2117.8ms)
+Completed 200 OK in 2947ms (Views: 2910.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:36:00 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (8.6ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/courses.html.erb within layouts/application (108.2ms)
+Completed 200 OK in 909ms (Views: 886.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 22:46:32 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (1943.6ms)
+  Rendered home/_footer.html.erb (3.8ms)
+  Rendered home/courses.html.erb within layouts/application (2008.4ms)
+Completed 200 OK in 2704ms (Views: 2682.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 22:46:43 +0300
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.6ms)
+  Rendered home/_navigation.html.erb (6.4ms)
+  Rendered home/about_us.html.erb within layouts/application (66.8ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "1.png" is not present in the asset pipeline.):
+    214:                             <article class="entry">
+    215:                                 <div class="entry-border">
+    216:                                     <div class="team-image">
+    217:                                         <%= image_tag('1.png') %>
+    218:                                     </div><!-- /.feature-post -->
+    219:                                     <ul class="flat-socials">
+    220:                                         <li class="facebook">
+  
+app/views/home/about_us.html.erb:217:in `_app_views_home_about_us_html_erb__205434938_97597000'
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 22:49:38 +0300
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (8.0ms)
+  Rendered home/about_us.html.erb within layouts/application (107.3ms)
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "2.png" is not present in the asset pipeline.):
+    242:                             <article class="entry">
+    243:                                 <div class="entry-border">
+    244:                                     <div class="team-image">
+    245:                                         <%= image_tag('2.png') %>
+    246:                                     </div><!-- /.feature-post -->
+    247:                                     <ul class="flat-socials">
+    248:                                         <li class="facebook">
+  
+app/views/home/about_us.html.erb:245:in `_app_views_home_about_us_html_erb__205434938_96356160'
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 22:50:20 +0300
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.7ms)
+  Rendered home/_footer.html.erb (54.6ms)
+  Rendered home/about_us.html.erb within layouts/application (3457.5ms)
+Completed 200 OK in 4258ms (Views: 4222.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:52:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (35.4ms)
+  Rendered home/index.html.erb within layouts/application (418.0ms)
+Completed 500 Internal Server Error in 545ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "teacher/3.png" is not present in the asset pipeline.):
+    386:                                 <p class="position">English Teacher</p>
+    387:                             </div>
+    388:                             <div class="team-image">
+    389:                                <%= image_tag('teacher/3.png') %>
+    390:                             </div>
+    391:                             <div class="descritption">
+    392:                                 <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et velit metus. Vivamus nulla est, accumsan ut turpis sed, accumsan tincidunt lacus. Sed et nisl tincidunt sapien suscipit maximus ut non urna. Phasellus tempus arcu vel odio lobortis pretium. Proin tincidunt eget lacus nec tincidunt. Sed dapibus massa sed felis sodales, sed ornare metus gravida.</blockquote>
+  
+app/views/home/index.html.erb:389:in `_app_views_home_index_html_erb__807645523_125956920'
+Started GET "/" for 127.0.0.1 at 2019-02-22 22:53:28 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7.6ms)
+  Rendered home/_footer.html.erb (18.5ms)
+  Rendered home/index.html.erb within layouts/application (353.3ms)
+Completed 200 OK in 1356ms (Views: 1335.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 22:59:47 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (10752.0ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/about_us.html.erb within layouts/application (10845.3ms)
+Completed 200 OK in 12449ms (Views: 12417.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 23:00:44 +0300
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.2ms)
+  Rendered home/_navigation.html.erb (9.9ms)
+  Rendered home/_footer.html.erb (5.2ms)
+  Rendered home/about_us.html.erb within layouts/application (114.9ms)
+Completed 200 OK in 719ms (Views: 704.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about_us" for 127.0.0.1 at 2019-02-22 23:05:48 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (2171.2ms)
+  Rendered home/_footer.html.erb (6.1ms)
+  Rendered home/about_us.html.erb within layouts/application (2311.7ms)
+Completed 200 OK in 3635ms (Views: 3609.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact_us" for 127.0.0.1 at 2019-02-22 23:05:57 +0300
+Processing by HomeController#contact_us as HTML
+  Rendering home/contact_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.4ms)
+  Rendered home/_footer.html.erb (3.4ms)
+  Rendered home/contact_us.html.erb within layouts/application (51.7ms)
+Completed 200 OK in 557ms (Views: 543.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact_us" for 127.0.0.1 at 2019-02-22 23:06:52 +0300
+Processing by HomeController#contact_us as HTML
+  Rendering home/contact_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (12.2ms)
+  Rendered home/_footer.html.erb (2.5ms)
+  Rendered home/contact_us.html.erb within layouts/application (80.7ms)
+Completed 200 OK in 649ms (Views: 628.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/contact_us" for 127.0.0.1 at 2019-02-22 23:16:56 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#contact_us as HTML
+  Rendering home/contact_us.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7500.1ms)
+  Rendered home/_footer.html.erb (6.2ms)
+  Rendered home/contact_us.html.erb within layouts/application (7557.4ms)
+Completed 200 OK in 8684ms (Views: 8661.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/blog" for 127.0.0.1 at 2019-02-22 23:17:23 +0300
+Processing by HomeController#blog as HTML
+  Rendering home/blog.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7.3ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/blog.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 940ms (Views: 922.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:17:41 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (5.7ms)
+  Rendered home/index.html.erb within layouts/application (727.3ms)
+Completed 500 Internal Server Error in 880ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "blog/b1.jpg" is not present in the asset pipeline.):
+    676:                     <div class="post-wrap">
+    677:                         <article class="entry clearfix images-left">                       
+    678:                             <div class="feature-post">
+    679:                                 <a href="blog_single_v2.html"><%= image_tag('blog/b1.jpg') %></a>
+    680:                             </div><!-- /.feature-post -->
+    681: 
+    682:                             <div class="main-post">
+  
+app/views/home/index.html.erb:679:in `_app_views_home_index_html_erb__419455503_130036620'
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:18:19 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (44.6ms)
+  Rendered home/index.html.erb within layouts/application (576.3ms)
+Completed 500 Internal Server Error in 712ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "blog/b1.jpg" is not present in the asset pipeline.):
+    676:                     <div class="post-wrap">
+    677:                         <article class="entry clearfix images-left">                       
+    678:                             <div class="feature-post">
+    679:                                 <a href="blog_single_v2.html"><%= image_tag('blog/b1.jpg') %></a>
+    680:                             </div><!-- /.feature-post -->
+    681: 
+    682:                             <div class="main-post">
+  
+app/views/home/index.html.erb:679:in `_app_views_home_index_html_erb__419455503_141763360'
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:18:40 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (10.9ms)
+  Rendered home/_footer.html.erb (26.1ms)
+  Rendered home/index.html.erb within layouts/application (219.3ms)
+Completed 200 OK in 1448ms (Views: 1429.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 23:23:22 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (56.7ms)
+  Rendered home/_footer.html.erb (30.6ms)
+  Rendered home/courses.html.erb within layouts/application (304.0ms)
+Completed 200 OK in 2155ms (Views: 2138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-22 23:36:13 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (17273.2ms)
+  Rendered home/_footer.html.erb (6.9ms)
+  Rendered home/courses.html.erb within layouts/application (17354.0ms)
+Completed 200 OK in 19413ms (Views: 19387.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:38:00 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 203ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting ')'
+append=( link_to ('View more', home_courses_single_course_pa
+                              ^
+C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+es_single_course_path,:class=>'courses-viewmore') );@output_
+                              ^
+C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+,:class=>'courses-viewmore') );@output_buffer.safe_append='
+                              ^):
+  
+app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting ')'
+append=( link_to ('View more', home_courses_single_course_pa
+app/views/home/index.html.erb:139: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:38:33 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting ')'
+append=( link_to ("View more", home_courses_single_course_pa
+                              ^
+C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+es_single_course_path,:class=>'courses-viewmore') );@output_
+                              ^
+C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+,:class=>'courses-viewmore') );@output_buffer.safe_append='
+                              ^):
+  
+app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting ')'
+append=( link_to ("View more", home_courses_single_course_pa
+app/views/home/index.html.erb:139: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:39:01 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+ingle_course_path,"View more",:class=>'courses-viewmore') );
+                              ^
+C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+,:class=>'courses-viewmore') );@output_buffer.safe_append='
+                              ^):
+  
+app/views/home/index.html.erb:139: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:39:42 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (11.8ms)
+  Rendered home/_footer.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (208.4ms)
+Completed 200 OK in 873ms (Views: 848.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:41:57 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Sites/iris-college/app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+,:class=>'courses-viewmore') );@output_buffer.safe_append='
+                              ^):
+  
+app/views/home/index.html.erb:139: syntax error, unexpected ')', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:42:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (5.4ms)
+  Rendered home/_footer.html.erb (3.9ms)
+  Rendered home/index.html.erb within layouts/application (146.9ms)
+Completed 200 OK in 633ms (Views: 619.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:43:45 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.4ms)
+  Rendered home/_navigation.html.erb (7.0ms)
+  Rendered home/_footer.html.erb (4.7ms)
+  Rendered home/index.html.erb within layouts/application (259.3ms)
+Completed 200 OK in 933ms (Views: 913.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses/single_course" for 127.0.0.1 at 2019-02-22 23:43:50 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (5.3ms)
+  Rendered home/single_course.html.erb within layouts/application (81.1ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course-single.jpg\" " is not present in the asset pipeline.):
+    60:                                 <span class="value-review"><a href="#">( 3 REVIEWS )</a></span>
+    61:                             </li>
+    62:                         </ul>
+    63:                         <div class="course-image"><%= image_tag('course-single.jpg" ') %>div>
+    64:                         <h6 class="title">descripsion</h6>
+    65: 
+    66:                         <div class="content-desc">
+  
+app/views/home/single_course.html.erb:63:in `_app_views_home_single_course_html_erb__1050425623_131875240'
+Started GET "/home/courses/single_course" for 127.0.0.1 at 2019-02-22 23:45:39 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (11.9ms)
+  Rendered home/single_course.html.erb within layouts/application (140.9ms)
+Completed 500 Internal Server Error in 359ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course-single.jpg\" " is not present in the asset pipeline.):
+    60:                                 <span class="value-review"><a href="#">( 3 REVIEWS )</a></span>
+    61:                             </li>
+    62:                         </ul>
+    63:                         <div class="course-image"><%= image_tag('course-single.jpg" ') %>div>
+    64:                         <h6 class="title">descripsion</h6>
+    65: 
+    66:                         <div class="content-desc">
+  
+app/views/home/single_course.html.erb:63:in `_app_views_home_single_course_html_erb__1050425623_120283900'
+Started GET "/home/courses/single_course" for 127.0.0.1 at 2019-02-22 23:47:53 +0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (19257.1ms)
+  Rendered home/single_course.html.erb within layouts/application (19367.4ms)
+Completed 500 Internal Server Error in 19527ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course-single.jpg\" " is not present in the asset pipeline.):
+    60:                                 <span class="value-review"><a href="#">( 3 REVIEWS )</a></span>
+    61:                             </li>
+    62:                         </ul>
+    63:                         <div class="course-image"><%= image_tag('course-single.jpg" ') %>div>
+    64:                         <h6 class="title">descripsion</h6>
+    65: 
+    66:                         <div class="content-desc">
+  
+app/views/home/single_course.html.erb:63:in `_app_views_home_single_course_html_erb__778069700_88576500'
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:50:36 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.2ms)
+  Rendered home/_navigation.html.erb (8.6ms)
+  Rendered home/index.html.erb within layouts/application (134.6ms)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course/cat1.jpg" is not present in the asset pipeline.):
+    122:                 <div class="col-md-3 col-sm-6 col-xs-6">
+    123:                     <div class="flat-courses">
+    124:                         <div class="courses-thumbnail">
+    125:                             <a href="#"><%= image_tag('course/cat1.jpg') %></a>
+    126:                             <%= link_to "View more",home_single_course_path,:class=>'courses-viewmore' %>
+    127:                         </div>
+    128:                         <div class="courses-content">
+  
+app/views/home/index.html.erb:125:in `_app_views_home_index_html_erb__892524133_87456980'
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:50:40 +0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7.7ms)
+  Rendered home/index.html.erb within layouts/application (553.7ms)
+Completed 500 Internal Server Error in 1603ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course/cat1.jpg" is not present in the asset pipeline.):
+    122:                 <div class="col-md-3 col-sm-6 col-xs-6">
+    123:                     <div class="flat-courses">
+    124:                         <div class="courses-thumbnail">
+    125:                             <a href="#"><%= image_tag('course/cat1.jpg') %></a>
+    126:                             <%= link_to "View more",home_single_course_path,:class=>'courses-viewmore' %>
+    127:                         </div>
+    128:                         <div class="courses-content">
+  
+app/views/home/index.html.erb:125:in `_app_views_home_index_html_erb__892524133_127315640'
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:51:09 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.4ms)
+  Rendered home/_navigation.html.erb (12.5ms)
+  Rendered home/_footer.html.erb (5.2ms)
+  Rendered home/index.html.erb within layouts/application (232.6ms)
+Completed 200 OK in 1311ms (Views: 1292.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-22 23:51:21 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (11.5ms)
+  Rendered home/single_course.html.erb within layouts/application (99.8ms)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "course-single.jpg\" " is not present in the asset pipeline.):
+    60:                                 <span class="value-review"><a href="#">( 3 REVIEWS )</a></span>
+    61:                             </li>
+    62:                         </ul>
+    63:                         <div class="course-image"><%= image_tag('course-single.jpg" ') %>div>
+    64:                         <h6 class="title">descripsion</h6>
+    65: 
+    66:                         <div class="content-desc">
+  
+app/views/home/single_course.html.erb:63:in `_app_views_home_single_course_html_erb__778069700_122708640'
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-22 23:51:54 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.9ms)
+  Rendered home/_footer.html.erb (4.6ms)
+  Rendered home/single_course.html.erb within layouts/application (120.0ms)
+Completed 200 OK in 976ms (Views: 954.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-22 23:53:25 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.8ms)
+  Rendered home/_navigation.html.erb (7.4ms)
+  Rendered home/_footer.html.erb (5.6ms)
+  Rendered home/single_course.html.erb within layouts/application (91.0ms)
+Completed 200 OK in 755ms (Views: 732.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-22 23:53:45 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (10.4ms)
+  Rendered home/_footer.html.erb (7.2ms)
+  Rendered home/single_course.html.erb within layouts/application (133.5ms)
+Completed 200 OK in 970ms (Views: 950.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-22 23:58:33 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (6.7ms)
+  Rendered home/_footer.html.erb (3.6ms)
+  Rendered home/single_course.html.erb within layouts/application (70.1ms)
+Completed 200 OK in 546ms (Views: 531.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-22 23:59:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.8ms)
+  Rendered home/_navigation.html.erb (13.9ms)
+  Rendered home/_footer.html.erb (5.9ms)
+  Rendered home/index.html.erb within layouts/application (245.2ms)
+Completed 200 OK in 1138ms (Views: 1122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:00:25 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.3ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (151.2ms)
+Completed 200 OK in 663ms (Views: 648.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/single_course" for 127.0.0.1 at 2019-02-23 00:00:43 +0300
+Processing by HomeController#single_course as HTML
+  Rendering home/single_course.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.9ms)
+  Rendered home/_navigation.html.erb (6.9ms)
+  Rendered home/_footer.html.erb (3.1ms)
+  Rendered home/single_course.html.erb within layouts/application (97.1ms)
+Completed 200 OK in 1126ms (Views: 1073.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:00:47 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.9ms)
+  Rendered home/_navigation.html.erb (7.3ms)
+  Rendered home/_footer.html.erb (3.9ms)
+  Rendered home/index.html.erb within layouts/application (181.8ms)
+Completed 200 OK in 841ms (Views: 814.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-23 00:00:59 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (7.6ms)
+  Rendered home/_footer.html.erb (2.8ms)
+  Rendered home/courses.html.erb within layouts/application (67.5ms)
+Completed 200 OK in 718ms (Views: 702.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:01:02 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.7ms)
+  Rendered home/_navigation.html.erb (14.4ms)
+  Rendered home/_footer.html.erb (5.6ms)
+  Rendered home/index.html.erb within layouts/application (273.2ms)
+Completed 200 OK in 1219ms (Views: 1191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:01:38 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.6ms)
+  Rendered home/_navigation.html.erb (8.4ms)
+  Rendered home/_footer.html.erb (26.5ms)
+  Rendered home/index.html.erb within layouts/application (766.8ms)
+Completed 200 OK in 2552ms (Views: 2528.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:01:44 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (9.5ms)
+  Rendered home/_footer.html.erb (5.6ms)
+  Rendered home/index.html.erb within layouts/application (276.1ms)
+Completed 200 OK in 1357ms (Views: 1333.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:02:22 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (5.6ms)
+  Rendered home/_footer.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (177.6ms)
+Completed 200 OK in 684ms (Views: 667.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:02:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.5ms)
+  Rendered home/_footer.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (168.9ms)
+Completed 200 OK in 899ms (Views: 883.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:02:41 +0300
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (1953.8ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (2109.2ms)
+Completed 200 OK in 4367ms (Views: 4339.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:02:50 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (5.1ms)
+  Rendered home/_footer.html.erb (4.4ms)
+  Rendered home/index.html.erb within layouts/application (197.3ms)
+Completed 200 OK in 1119ms (Views: 1099.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:03:14 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.1ms)
+  Rendered home/_navigation.html.erb (6.6ms)
+  Rendered home/_footer.html.erb (6.2ms)
+  Rendered home/index.html.erb within layouts/application (188.7ms)
+Completed 200 OK in 909ms (Views: 879.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:03:19 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.8ms)
+  Rendered home/_navigation.html.erb (12.5ms)
+  Rendered home/_footer.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (267.9ms)
+Completed 200 OK in 1220ms (Views: 1200.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:03:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.0ms)
+  Rendered home/_navigation.html.erb (8.0ms)
+  Rendered home/_footer.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (238.3ms)
+Completed 200 OK in 1021ms (Views: 996.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:04:00 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.3ms)
+  Rendered home/_navigation.html.erb (5.3ms)
+  Rendered home/_footer.html.erb (7.0ms)
+  Rendered home/index.html.erb within layouts/application (224.0ms)
+Completed 200 OK in 945ms (Views: 918.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/courses" for 127.0.0.1 at 2019-02-23 00:04:05 +0300
+Processing by HomeController#courses as HTML
+  Rendering home/courses.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (1.9ms)
+  Rendered home/_navigation.html.erb (10.5ms)
+  Rendered home/_footer.html.erb (3.4ms)
+  Rendered home/courses.html.erb within layouts/application (102.2ms)
+Completed 200 OK in 796ms (Views: 774.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:04:09 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (6.5ms)
+  Rendered home/_footer.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (127.8ms)
+Completed 200 OK in 592ms (Views: 568.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-23 00:04:13 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_shelf.html.erb (0.7ms)
+  Rendered home/_navigation.html.erb (5.4ms)
+  Rendered home/_footer.html.erb (3.3ms)
+  Rendered home/index.html.erb within layouts/application (147.7ms)
+Completed 200 OK in 651ms (Views: 637.1ms | ActiveRecord: 0.0ms)
+
+

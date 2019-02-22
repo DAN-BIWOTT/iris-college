@@ -6,6 +6,10 @@ class StudentsController < ApplicationController
     @student = Student.all
   end
 
+  def show
+    @student = Student.all
+  end
+
   def finance
     
   end

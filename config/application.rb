@@ -18,7 +18,7 @@ module Iris
     config.assets.enabled = true
     config.assets.initialize_on_precompile = true
     config.serve_static_assets = true
-    config.api_controllers_matcher="#{Rails.root}/app/controllers/api/v1/*.rb"
+    config.api_controllers_matcher="#{Rails.root}/app/controllers/api/student_show/*.rb"
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.assets.paths << Rails.root.join("app", "assets", "icon")
     config.assets.paths << Rails.root.join("app", "assets", "contact")
